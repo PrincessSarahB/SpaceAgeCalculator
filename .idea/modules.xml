@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpaceAgeCalculator.iml" filepath="$PROJECT_DIR$/.idea/modules/SpaceAgeCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpaceAgeCalculator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpaceAgeCalculator_main.iml" group="SpaceAgeCalculator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpaceAgeCalculator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpaceAgeCalculator_test.iml" group="SpaceAgeCalculator" />
+    </modules>
+  </component>
+</project>
