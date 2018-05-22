@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 public class SpaceAgeCalculatorTest {
 
-    SpaceAgeCalculator spaceAgeCalculator;
+
     Person person;
     Planet mercury;
     Planet venus;
@@ -15,6 +15,7 @@ public class SpaceAgeCalculatorTest {
     Planet neptune;
     Planet uranus;
     Planet pluto;
+    SpaceAgeCalculator spaceAgeCalculator;
 
     @Before
     public void setUp() {
@@ -31,8 +32,8 @@ public class SpaceAgeCalculatorTest {
     }
 
     @Test
-
     public void hasPerson(){
+        spaceAgeCalculator = new SpaceAgeCalculator(person, pluto);
         assertEquals(person, spaceAgeCalculator.getPerson());
     }
 
