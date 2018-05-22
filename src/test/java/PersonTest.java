@@ -16,4 +16,9 @@ public class PersonTest {
     public void hasName(){
         assertEquals("Sarah", person.getName());
     }
+
+    @Test
+    public void hasAge(){
+        assertEquals(30, person.getAge());
+    }
 }
