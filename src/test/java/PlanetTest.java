@@ -17,8 +17,5 @@ public class PlanetTest {
         assertEquals("Mercury", planet.getName());
     }
 
-    @Test
-    public void hasEarthYears(){
-        assertEquals(0.2408467, planet.getEarthYears(), 0.01);
-    }
+
 }

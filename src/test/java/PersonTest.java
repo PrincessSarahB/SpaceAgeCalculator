@@ -19,6 +19,6 @@ public class PersonTest {
 
     @Test
     public void hasAge(){
-        assertEquals(30, person.getAge());
+        assertEquals(30, person.getAgeInSeconds());
     }
 }

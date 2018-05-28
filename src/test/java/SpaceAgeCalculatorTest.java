@@ -19,7 +19,7 @@ public class SpaceAgeCalculatorTest {
 
     @Before
     public void setUp() {
-        person = new Person("Sarah", 30);
+        person = new Person("Sarah", 1000000000);
         mercury = new Planet("Mercury", 0.2408467);
         venus = new Planet("Venus", 0.61519726 );
         mars = new Planet("Mars", 1.8808158);
@@ -40,13 +40,13 @@ public class SpaceAgeCalculatorTest {
     @Test
     public void ageOnMercury() {
         spaceAgeCalculator = new SpaceAgeCalculator(person, mercury);
-        assertEquals(124.56, spaceAgeCalculator.ageOnPlanet(), 0.1);
+        assertEquals(131.56, spaceAgeCalculator.ageOnPlanet(), 0.1);
     }
 
     @Test
     public void ageOnVenus(){
         spaceAgeCalculator = new SpaceAgeCalculator(person, venus);
-        assertEquals(48.76, spaceAgeCalculator.ageOnPlanet(), 0.1);
+        assertEquals(565, spaceAgeCalculator.ageOnPlanet(), 0.1);
     }
 
     @Test

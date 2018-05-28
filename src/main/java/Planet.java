@@ -1,19 +1,20 @@
 public class Planet {
 
     private String name;
-    private double earthYears;
+    private double planetaryYearLength;
 
-    public Planet(String name, double earthYears) {
+    public Planet(String name, double planetaryYearLength) {
         this.name = name;
-        this.earthYears = earthYears;
+        this.planetaryYearLength = planetaryYearLength;
     }
 
     public String getName() {
         return name;
     }
 
-    public double getEarthYears() {
-        return earthYears;
+//    seconds in 1 earth year = 31,557,600
+    public double getPlanetaryYearLength() {
+        return 31557600 * this.planetaryYearLength;
     }
 }
 

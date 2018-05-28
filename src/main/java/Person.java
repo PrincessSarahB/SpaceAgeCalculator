@@ -1,18 +1,18 @@
 public class Person {
 
     String name;
-    int age;
+    int ageInSeconds;
 
-    public Person(String name, int age) {
+    public Person(String name, int ageInSeconds) {
         this.name = name;
-        this.age = age;
+        this.ageInSeconds = ageInSeconds;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getAge() {
-        return age;
+    public int getAgeInSeconds() {
+        return ageInSeconds;
     }
 }

@@ -19,6 +19,6 @@ public class SpaceAgeCalculator {
     }
 
     public double ageOnPlanet(){
-        return this.person.getAge()/this.planet.getEarthYears();
+        return this.person.getAgeInSeconds()/this.planet.getPlanetaryYearLength();
     }
 }
