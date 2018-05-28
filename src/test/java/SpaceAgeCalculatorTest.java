@@ -46,37 +46,37 @@ public class SpaceAgeCalculatorTest {
     @Test
     public void ageOnVenus(){
         spaceAgeCalculator = new SpaceAgeCalculator(person, venus);
-        assertEquals(565, spaceAgeCalculator.ageOnPlanet(), 0.1);
+        assertEquals(51.50, spaceAgeCalculator.ageOnPlanet(), 0.1);
     }
 
     @Test
     public void ageOnMars(){
         spaceAgeCalculator = new SpaceAgeCalculator(person, mars);
-        assertEquals(15.95, spaceAgeCalculator.ageOnPlanet(), 0.1);
+        assertEquals(16.80, spaceAgeCalculator.ageOnPlanet(), 0.1);
     }
 
     @Test
     public void ageOnJupiter(){
         spaceAgeCalculator = new SpaceAgeCalculator(person, jupiter);
-        assertEquals(2.52, spaceAgeCalculator.ageOnPlanet(), 0.1);
+        assertEquals(2.67, spaceAgeCalculator.ageOnPlanet(), 0.1);
     }
 
     @Test
     public void ageOnSaturn(){
         spaceAgeCalculator = new SpaceAgeCalculator(person, saturn);
-        assertEquals(1, spaceAgeCalculator.ageOnPlanet(), 0.1);
+        assertEquals(1.07, spaceAgeCalculator.ageOnPlanet(), 0.1);
     }
 
     @Test
     public void ageOnUranus(){
         spaceAgeCalculator = new SpaceAgeCalculator(person, uranus);
-        assertEquals(0.35, spaceAgeCalculator.ageOnPlanet(), 0.1);
+        assertEquals(0.37, spaceAgeCalculator.ageOnPlanet(), 0.1);
     }
 
     @Test
     public void ageOnNeptune(){
         spaceAgeCalculator = new SpaceAgeCalculator(person, neptune);
-        assertEquals(0.18, spaceAgeCalculator.ageOnPlanet(), 0.1);
+        assertEquals(0.19, spaceAgeCalculator.ageOnPlanet(), 0.1);
     }
 
     @Test
